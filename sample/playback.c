@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <pulse/pulseaudio.h>
+#include <math.h>
 
 static int latency = 20000; // start latency in micro seconds
 static int sampleoffs = 0;
