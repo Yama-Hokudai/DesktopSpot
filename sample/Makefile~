@@ -1,0 +1,5 @@
+devicelist:
+	gcc -Wall -o pulsedevicelist devicelist.c -lpulse
+playback:
+	# gcc $pkg-config --cflags --libs libpulse) playback.c -o pa-beep
+	g-c lm -lpulse playback.c -o playback
