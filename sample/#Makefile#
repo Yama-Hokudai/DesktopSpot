@@ -1,0 +1,4 @@
+devicelist:
+	gcc -Wall -o pulsedevicelist devicelist.c -lpulse
+playback:
+	gcc -lm -lpulse playback.c -o playback
